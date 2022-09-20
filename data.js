@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-panorama-of-modern-white-empty-loft-apartment-interior-living-hall-room-full-360-seamless-panorama-in-equirectangular-spherical-projection-skybox-v-rdfbca",
-      "name": "panorama-of-modern-white-empty-loft-apartment-interior-living-hall-room-full-360-seamless-panorama-in-equirectangular-spherical-projection-skybox-v-RDFBCA",
+      "id": "0-exibition-room-ve_a66_stat_con-welcome",
+      "name": "Exibition Room VE_A66_Stat_Con-Welcome",
       "levels": [
         {
           "tileSize": 256,
@@ -16,23 +16,34 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 750,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.04030266393315429,
+        "pitch": 0.2960472884872374,
+        "fov": 1.4140395332092066
       },
       "linkHotspots": [],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -0.04030266393315429,
+          "pitch": 0.2960472884872374,
+          "title": "Information Desk",
+          "text": "This is only a test"
+        }
+      ]
     }
   ],
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": false,
-    "viewControlButtons": false
+    "viewControlButtons": true
   }
 };
